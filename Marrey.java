@@ -9,13 +9,13 @@ public class Marrey {
 
         Scanner scan = new Scanner(System.in);
 
-        for (int i = 0; i < num.length; i++) {
+        for (int i = 0; i < numPosicao; i++) {
             System.out.print("Digite o número " + (i + 1) + ": ");
             num[i] = scan.nextInt();
             soma += num[i];
         }
 
-        media = soma / num.length;
+        media = soma / numPosicao;
 
         System.out.println("A média é: " + media);
 
